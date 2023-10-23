@@ -4,28 +4,34 @@
     box-sizing: border-box;
 }
 
-header nav li {
+body {
+    border: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    padding: 16px;
-    background-color: aquamarine;
-    display: inline;
-    margin-left: 16px;
-    font-size: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    color: #383333;
+    font-size: 20px;
 }
 
-header nav li a {
-    color: black;
-    text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: normal;
-    font-size: 13px;
+#titulo {
+    padding: 15px 15px 3px 12px;
 }
-.cabecalho {
-    background-color: aquamarine;
-    text-align: left;
-    text-justify: auto;
+
+/*div {
+    display: block;
+}*/
+
+.barralateral {
+    min-width: 310px;
+    max-width: 310px;
+    color: #fff;
+    transition: all 0.6s cubic-bezier(0.945, 0.20, 0.270, 0.665);
+    transform-origin: bottom left;
+    background: #008cba;
+}
+
+ul li a {
+    padding: 10px;
+    display: flex;
+    background: #008cba;
+    color: #fff;
+    text-align: center;
 }
