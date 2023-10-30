@@ -1,12 +1,31 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     background-color: #172554;
 }
 
 a {
     text-decoration: none;
+    text-align: center;
     color: aliceblue;
     max-width: 40%;
 }
+
+p {
+    line-height: 1.5; /* Aumenta o espaçamento entre as linhas */
+}
+    
+h1 {
+    text-align: center;
+}
+
+ul li a {
+    font-size: 20px;
+    margin-top: 16px;
+}
+
 .container {
     width: 100%;
 }
@@ -18,15 +37,24 @@ a {
 }
 
 .barraLateral {
-    max-width: 40%;
-    min-width: 50%;
-    background: #202123;
-    margin-top: -17px;
+    position: fixed;
+    left: 1%;
+    width: 15%;
+    height: 100%;
+    color: aliceblue;
+    background-color: #202123;
+    
 }
 
 .conteudo {
-    text-align: right;
-    background-color: darkgrey;
+    padding-right: 2%;
+    padding-left: 2%;
+    position: fixed;
+    text-align: justify;
+    left: 17%;
+    width: 78%;
+
+    background-color: rgba(169, 169, 169, 0.336);
 }
 
 header {
